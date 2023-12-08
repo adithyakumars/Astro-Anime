@@ -1,0 +1,41 @@
+---
+// Image are represents logo, tiktok, insta, twi used svg,png,jpg  
+const logo = "./assets/logo.svg";
+const tiktok = "./assets/tiktok.svg"
+const insta = "./assets/instagram.svg"
+const twi = "./assets/twitter.svg"
+---
+
+<footer class="sm:px-16 py-4 px-8 flex justify-between items-center gap-2 flex-wrap bg-[#161921]">
+    <p class="text-base font-bold text-white">@2023 Adithya-EpicAnimeVault</p>
+    <img
+      src={logo}
+      alt="logo"
+      width={47}
+      height={44}
+      class="object-contain"
+    />
+    <div class="flex items-center gap-6">
+        <img
+            src={tiktok}
+            alt="logo"
+            width={19}
+            height={19}
+            class="object-contain"
+        />
+        <img
+            src={insta}
+            alt="logo"
+            width={19}
+            height={19}
+            class="object-contain"
+        />
+        <img
+            src={twi}
+            alt="logo"
+            width={19}
+            height={19}
+            class="object-contain"
+        />
+    </div>
+</footer>
